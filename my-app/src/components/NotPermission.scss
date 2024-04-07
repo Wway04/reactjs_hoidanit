@@ -1,0 +1,49 @@
+.not-permission {
+  .title {
+    background-image: url("https://fullstack.edu.vn/static/media/ccgradient.24a9b0fc1e10582a3f3d.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 200px;
+    -webkit-mask-image: url("https://fullstack.edu.vn/static/media/404.4aeac89222fbcc2f32a6.svg");
+    mask-image: url("https://fullstack.edu.vn/static/media/404.4aeac89222fbcc2f32a6.svg");
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: auto;
+    mask-size: auto;
+    width: 100%;
+  }
+  .description {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .content {
+    margin: 16px 0 24px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .link-home {
+    a {
+      background-color: #f05123;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px !important;
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 400;
+      outline: none;
+      padding: 14px 24px;
+      text-align: center;
+      transition: 0.3s ease;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.table-users {
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    > .col,
+    > [class*="actions col-12"] {
+      margin: 12px 0;
+    }
+  }
+}
